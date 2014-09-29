@@ -15,7 +15,6 @@ def PatternCount( text, pattern ):
 
 
 
-
 def FrequentWords( text, patternSize ):
 
     frequentPatterns = []
@@ -36,7 +35,7 @@ def FrequentWords( text, patternSize ):
         patternCount[ itr ] = PatternCount( text, pattern )
 
 
-    #Finding the maxium value(count) within patternCount.
+    #Finding the maximum value(count) within patternCount.
     maxCount = 0
     for itr in range( 0, len( patternCount ) ):
 
