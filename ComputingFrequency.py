@@ -24,6 +24,7 @@ def SymbolToNumber( symbol ):
 
 
 
+#Recursive
 def PatternToNumber( pattern ):
 
     #Important for exiting recursion.

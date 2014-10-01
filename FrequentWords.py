@@ -13,8 +13,6 @@ def PatternCount( text, pattern ):
 
 
 
-
-
 def FrequentWords( text, patternSize ):
 
     frequentPatterns = []
@@ -50,8 +48,6 @@ def FrequentWords( text, patternSize ):
             frequentPatterns.append( text[ itr : itr + patternSize ] )
 
     return frequentPatterns
-
-
 
     
 

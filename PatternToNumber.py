@@ -39,9 +39,12 @@ def PatternToNumber( pattern ):
 
     lastSymbol = LastSymbol( pattern )
 
+    #The '4 *' allows the resulting numbers to be unique according to their symbol's positions.
     return 4 * PatternToNumber( prunedPattern ) + SymbolToNumber( lastSymbol )
 
 
 
 #Main
-print PatternToNumber( "AGT" )
+#print PatternToNumber( "AGT" )
+print PatternToNumber( "AAC" )
+print PatternToNumber( "ACA" )
